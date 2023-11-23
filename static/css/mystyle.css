@@ -813,6 +813,11 @@ span {
     animation: none;
 }
 
+section:nth-child(odd) .animate.scroll,
+.footer .animate.scroll {
+    background: var(--second-bg-color);
+}
+
 .education .education-box .animate.scroll {
     width: 105%;
 }
@@ -850,6 +855,12 @@ span {
 
     .footer {
         padding: 2rem 4%;
+    }
+}
+
+@media (max-width: 850px) {
+    .animate.home-img {
+        width: 55%;
     }
 }
 
